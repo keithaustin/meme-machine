@@ -1,0 +1,51 @@
+/* CSS Document */
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body>h1:first-of-type {
+	text-shadow: 2px 2px 2px #A2DCD7;
+}
+
+.thumbnail span {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	margin: 10px;
+}
+
+#thumbnails {
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+}
+
+#create, #completed {
+	width: 46%;
+}
+
+#create {
+	float: left;
+	border-right: 1px solid #666;
+	padding-right: 20px;
+}
+
+#completed {
+	float: right;
+}
+
+#completed ul {
+	list-style: none;
+}
+
+#completed ul img {
+	width: 160px;
+	height: 120px;
+	border: 1px solid #999;
+	display: inline-block;
+	vertical-align: middle;
+	margin: .5em;
+}
